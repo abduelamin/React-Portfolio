@@ -1,0 +1,43 @@
+.contact-root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1e2936; /* Main background color */
+  color: #9ca2ac; /* Light text color */
+}
+
+.card {
+  width: 75%;
+  text-align: center;
+  padding: 20px;
+  background-color: #1e2936; /* Darker background color for the card */
+  border: 1px solid #f3f5f7; /* Border color */
+}
+
+.card-title {
+  color: #f3f5f7; /* Title color */
+}
+
+/* Additional styling for form elements */
+.form-control {
+  background-color: #ffffff; /* White background color for form input */
+  color: #1e2936; /* Form input text color */
+  border: 1px solid #f3f5f7; /* Form input border color */
+}
+
+.form-control label {
+  color: #9ca2ac; /* Label text color */
+}
+
+/* Additional styling for form labels */
+.form-label {
+  color: #9ca2ac; /* Color for form labels like 'Your Name', 'Email', etc. */
+}
+
+.btn-primary {
+  background-color: #f3f5f7; /* Button background color */
+  border-color: #f3f5f7; /* Button border color */
+  color: #1e2936; /* Button text color */
+}

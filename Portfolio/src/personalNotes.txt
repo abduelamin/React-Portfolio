@@ -1,0 +1,9 @@
+Lessons learnt from this project:
+
+1: When making react apps, the root component doesn't take up the whole height and width of the browser. To make it do so you must give it a min-height: 100vh and min-width: 100vw
+
+2: When working with images in a React app, you import them into your components and use them as JSX elements. e.g:
+import profileImage from "./profile.jpg"; 
+<img src={profileImage} alt="Profile" />
+
+3: When you use target="_blank" to open links in a new tab or window, it's generally a good practice to include rel="noopener noreferrer" for security and privacy reasons. This is especially important when linking to external websites.
