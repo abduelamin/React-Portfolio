@@ -23,11 +23,15 @@ const Footer = () => {
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
 
-      <button>Download Resume (PDF)</button>
+      <a
+        href="https://drive.google.com/file/d/1qryCeDHnB2Oj01dDcIYku5-RQuNFUbJj/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>Download Resume</button>
+      </a>
     </footer>
   );
 };
 
 export default Footer;
-
-// This will just hold the linkedin and github fontawesome icons links.

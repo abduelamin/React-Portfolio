@@ -2,20 +2,18 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 60px; /* Adjust the height according to your design */
+  height: 60px;
 }
 
-/* Add styles for the icons */
 footer svg {
-  font-size: 24px; /* Adjust the icon size */
-  margin: 0 15px; /* Add spacing between icons */
-  cursor: pointer; /* Add a pointer cursor for interactivity */
-  color: #333; /* Set the icon color */
+  font-size: 24px;
+  margin: 0 15px;
+  cursor: pointer;
+  color: #333;
 }
 
-/* Change icon color on hover for interactivity */
 footer svg:hover {
-  color: #e11d48; /* Change to your preferred hover color */
+  color: #e11d48;
 }
 
 footer button {

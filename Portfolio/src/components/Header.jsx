@@ -13,9 +13,9 @@ const Header = () => {
         <NavLink to="/ProjectGallery">Project Gallery</NavLink>
         <NavLink to="/Contact">Contact</NavLink>
       </nav>
-      <div>
+      {/* <div>
         <button>Theme</button>
-      </div>
+      </div> */}
     </header>
   );
 };

@@ -41,3 +41,7 @@
   border-color: #f3f5f7; /* Button border color */
   color: #1e2936; /* Button text color */
 }
+
+.moveTarget {
+  margin-left: 200px !important;
+}

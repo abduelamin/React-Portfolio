@@ -4,8 +4,8 @@ import "../styles/Contact.css";
 const Contact = () => {
   return (
     <div className="container mt-5">
-      <div className="row justify-content-center">
-        <div className="col-md-6">
+      <div className="row justify-content-center align-items-center">
+        <div className="col-md-6 mx-auto text-center moveTarget">
           <div className="card">
             <div className="card-body">
               <h1 className="card-title text-center mb-4">Contact Me</h1>
