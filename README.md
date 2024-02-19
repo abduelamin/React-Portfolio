@@ -23,7 +23,7 @@ React Components: Leveraging the power of React, the portfolio is built with reu
 
 Routing with React Router: Utilizing React Router for a smooth, single-page application experience while maintaining clean and user-friendly URLs.
 
-View my portfolio [HERE](https://abduelamin.github.io/React-Portfolio/)
+View my portfolio [HERE](https://abduelamin.netlify.app/)
 
 ![portfolio screenshot](https://github.com/abduelamin/React-Portfolio/assets/149680577/0c25a560-ccf0-4301-84c3-f1715c59b923)
 
