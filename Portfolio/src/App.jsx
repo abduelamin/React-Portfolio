@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
@@ -7,6 +6,7 @@ import Contact from "./components/Contact";
 import Project from "./components/Project"; // This will by dynamic params
 import ProjectGallery from "./components/ProjectGallery";
 import Footer from "./components/Footer";
+import projectData from "./projectData.json";
 
 function App() {
   return (
@@ -16,10 +16,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/ProjectGallery" element={<ProjectGallery />}>
-          <Route path="/ProjectGallery/Project/:id" element={<Project />} />
+          <Route
+            path="/ProjectGallery/Project/:id"
+            element={<Project myProjects={projectData} />}
+          />
         </Route>
       </Routes>
-
       <Footer />
     </div>
   );

@@ -1,29 +1,28 @@
-import React, { useNavigate } from "react";
+import React from "react";
 import "../styles/ProjectGallery.css";
-import { Outlet, NavLink } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import Solarapp from "../assets/Solarapp.png";
 import Teamprofile from "../assets/Teamprofile.png";
 import Weatherapp from "../assets/Weatherapp.png";
 
 const ProjectGallery = () => {
+  const navigate = useNavigate();
   return (
     <>
-      <div class="work__container">
+      <div className="work__container">
         {/* <!-- Project 1 --> */}
-        <div class="work__project">
-          <NavLink to="/Project/TeamCardGenerator">
-            {" "}
-            <img
-              src={Teamprofile}
-              alt="Wax Motif website"
-              class="work__img"
-            />{" "}
-          </NavLink>
-          <div class="work__overlay">
-            <div class="work__text">
-              <h3 class="work__project-title">Team Card Generator</h3>
-              <p class="work__project-description">
-                "Embark on a journey through the intricacies of corporate team
+        <div className="work__project">
+          <img
+            src={Teamprofile}
+            alt="Wax Motif website"
+            className="work__img"
+          />
+
+          <div className="work__overlay">
+            <div className="work__text">
+              <h3 className="work__project-title">Team Card Generator</h3>
+              <p className="work__project-description">
+                Embark on a journey through the intricacies of corporate team
                 management with my Team Generator App. Leveraging the power of
                 Node.js, this server-side marvel employs the art of
                 object-oriented programming and Inquirer to seamlessly create
@@ -31,20 +30,29 @@ const ProjectGallery = () => {
                 ensemble. Witness the fusion of technology and teamwork in
                 action.
               </p>
+              <br />
+              {/* <NavLink to="/ProjectGallery/Project/TeamCardGenerator"> */}
+              <button
+                className="explore"
+                onClick={() => {
+                  navigate("/ProjectGallery/Project/TeamCardGenerator");
+                }}
+              >
+                Explore
+              </button>
+              {/* </NavLink> */}
             </div>
           </div>
         </div>
 
         {/* <!-- Project 2 --> */}
 
-        <div class="work__project">
-          <NavLink to="/Project/SunnySolar">
-            <img src={Solarapp} alt="Project 2" class="work__img" />{" "}
-          </NavLink>
-          <div class="work__overlay">
-            <div class="work__text">
-              <h3 class="work__project-title">Sunny Solar</h3>
-              <p class="work__project-description">
+        <div className="work__project">
+          <img src={Solarapp} alt="Project 2" className="work__img" />{" "}
+          <div className="work__overlay">
+            <div className="work__text">
+              <h3 className="work__project-title">Sunny Solar</h3>
+              <p className="work__project-description">
                 Unveiling the Solar App – an end-to-end masterpiece meticulously
                 crafted to empower homeowners in their transition to renewable
                 energy. This app goes beyond aesthetics. It's a beacon of
@@ -53,20 +61,22 @@ const ProjectGallery = () => {
                 energy. Not just an app, but a solution to a real-world problem
                 in the era of renewable energy transition.
               </p>
+              <br />
+              <NavLink to="/ProjectGallery/Project/SunnySolar">
+                <button className="explore">Explore</button>
+              </NavLink>
             </div>
           </div>
         </div>
 
         {/* <!-- Project 3 --> */}
 
-        <div class="work__project">
-          <NavLink to="/Project/SunnySolar">
-            <img src={Weatherapp} alt="Project 3" class="work__img" />{" "}
-          </NavLink>
-          <div class="work__overlay">
-            <div class="work__text">
-              <h3 class="work__project-title">Weather App</h3>
-              <p class="work__project-description">
+        <div className="work__project">
+          <img src={Weatherapp} alt="Project 3" className="work__img" />
+          <div className="work__overlay">
+            <div className="work__text">
+              <h3 className="work__project-title">Weather App</h3>
+              <p className="work__project-description">
                 Introducing the Weather App – a dynamic forecast powerhouse that
                 transforms the mundane task of checking the weather into an
                 immersive experience. Through seamless integration of APIs and
@@ -76,6 +86,10 @@ const ProjectGallery = () => {
                 the atmospheric dynamics, turning routine checks into delightful
                 experiences.
               </p>
+              <br />
+              <NavLink to="/ProjectGallery/Project/Weatherapp">
+                <button className="explore">Explore</button>
+              </NavLink>
             </div>
           </div>
         </div>

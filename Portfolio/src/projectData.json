@@ -1,0 +1,23 @@
+{
+  "TeamCardGenerator": {
+    "title": "Team Card Generator",
+    "deployedLink": "https://example.com/teamcardgenerator",
+    "githubLink": "https://github.com/example/teamcardgenerator",
+    "image": "teamcardgenerator.png",
+    "description": "Embark on a journey through the intricacies of corporate team management with my Team Generator App. Leveraging the power of Node.js, this server-side marvel employs the art of object-oriented programming and Inquirer to seamlessly create visually appealing cards for every member of your professional ensemble. Witness the fusion of technology and teamwork inaction."
+  },
+  "SunnySolar": {
+    "title": "Sunny Solar",
+    "deployedLink": "https://example.com/sunnysolar",
+    "githubLink": "https://github.com/example/sunnysolar",
+    "image": "sunnysolar.png",
+    "description": "Unveiling the Solar App – an end-to-end masterpiece meticulously crafted to empower homeowners in their transition to renewable energy. This app goes beyond aesthetics. It's a beacon of knowledge for homeowners, unraveling the mysteries of solar potential, making informed decisions about harnessing clean energy. Not just an app, but a solution to a real-world problemin the era of renewable energy transition."
+  },
+  "Weatherapp": {
+    "title": "Weather App",
+    "deployedLink": "https://example.com/weatherapp",
+    "githubLink": "https://github.com/example/weatherapp",
+    "image": "weatherapp.png",
+    "description": "Introducing the Weather App – a dynamic forecast powerhouse that transforms the mundane task of checking the weather into an immersive experience. Through seamless integration of APIs and JavaScript magic, this app not only forecasts the weather for any city but does so with flair. Step into a world where weather updates are not just information but an interactive journey into the atmospheric dynamics, turning routine checks into delightful experiences."
+  }
+}
