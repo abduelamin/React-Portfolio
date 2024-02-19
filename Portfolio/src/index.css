@@ -66,3 +66,154 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+  .appContainer {
+    grid-template-rows: 60px auto 60px;
+  }
+
+  /* header a {
+    font-size: 0.8em;
+  } */
+
+  .heroSection {
+    margin-bottom: 5px;
+  }
+
+  .aboutMe p {
+    font-size: 0.9em;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .work__project-description {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    margin: 0;
+    color: #ffffff;
+  }
+
+  .singleProjectContainer button {
+    padding: 8px 16px; /* Adjust the padding as needed */
+    /* or */
+    font-size: 0.8em; /* Adjust the font size as needed */
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .work__project-title {
+    font-size: 0.8rem;
+    margin-bottom: 2.5px;
+  }
+  .work__project-description {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    margin: 0;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 880px) {
+  .work__container {
+    grid-template-columns: 1fr; /* Set to 1 column */
+  }
+  .work__project-title {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+
+  .work__project-description {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .singleProjectContainer a {
+    font-size: 1em;
+  }
+  .work__project-title {
+    font-size: 0.8rem;
+    margin-bottom: 1px;
+  }
+  .work__project-description {
+    font-size: 0.73rem;
+    margin: 0;
+    color: #ffffff;
+  }
+  .singleProjectContainer button {
+    text-transform: capitalize;
+    /* margin-right: 20px; */
+    /* padding: 10px 20px; */
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin: 10px; */
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introText {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .imageContainer {
+    height: 10%;
+    width: 10%;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
+
+  .aboutMe p {
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  footer button {
+    font-size: 10px;
+  }
+
+  .work__project:hover {
+    transform: scale(1);
+  }
+
+  .singleProjectContainer h1 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .singleProjectContainer button {
+    text-transform: capitalize;
+    /* margin-right: 20px; */
+    /* padding: 10px 20px; */
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin: 10px; */
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 690px) {
+  h1 {
+    font-size: 2em;
+  }
+  .contactContainer {
+    margin-right: 80px;
+  }
+}
