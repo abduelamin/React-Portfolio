@@ -50,13 +50,13 @@
 .work__project-title {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #ffffff; /* Title color */
+  color: #ffffff;
 }
 
 .work__project-description {
   font-size: 1rem;
   margin: 0;
-  color: #ffffff; /* Description color */
+  color: #ffffff;
 }
 
 .explore {

@@ -4,42 +4,40 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #1e2936; /* Main background color */
-  color: #9ca2ac; /* Light text color */
+  background-color: #1e2936;
+  color: #9ca2ac;
 }
 
 .card {
   width: 75%;
   text-align: center;
   padding: 20px;
-  background-color: #1e2936; /* Darker background color for the card */
-  border: 1px solid #f3f5f7; /* Border color */
+  background-color: #1e2936;
+  border: 1px solid #f3f5f7;
 }
 
 .card-title {
-  color: #f3f5f7; /* Title color */
+  color: #f3f5f7;
 }
 
-/* Additional styling for form elements */
 .form-control {
-  background-color: #ffffff; /* White background color for form input */
-  color: #1e2936; /* Form input text color */
-  border: 1px solid #f3f5f7; /* Form input border color */
+  background-color: #ffffff;
+  color: #1e2936;
+  border: 1px solid #f3f5f7;
 }
 
 .form-control label {
-  color: #9ca2ac; /* Label text color */
+  color: #9ca2ac;
 }
 
-/* Additional styling for form labels */
 .form-label {
-  color: #9ca2ac; /* Color for form labels like 'Your Name', 'Email', etc. */
+  color: #9ca2ac;
 }
 
 .btn-primary {
-  background-color: #f3f5f7; /* Button background color */
-  border-color: #f3f5f7; /* Button border color */
-  color: #1e2936; /* Button text color */
+  background-color: #f3f5f7;
+  border-color: #f3f5f7;
+  color: #1e2936;
 }
 
 .moveTarget {

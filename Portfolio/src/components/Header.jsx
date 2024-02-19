@@ -13,13 +13,8 @@ const Header = () => {
         <NavLink to="/ProjectGallery">Project Gallery</NavLink>
         <NavLink to="/Contact">Contact</NavLink>
       </nav>
-      {/* <div>
-        <button>Theme</button>
-      </div> */}
     </header>
   );
 };
 
 export default Header;
-
-// Chnge the theme button to an icon

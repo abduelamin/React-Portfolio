@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/ProjectGallery.css";
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import Solarapp from "../assets/Solarapp.png";
 import Teamprofile from "../assets/Teamprofile.png";
 import Weatherapp from "../assets/Weatherapp.png";
 
 const ProjectGallery = () => {
-  const navigate = useNavigate();
   return (
     <>
       <div className="work__container">
@@ -31,16 +30,9 @@ const ProjectGallery = () => {
                 action.
               </p>
               <br />
-              {/* <NavLink to="/ProjectGallery/Project/TeamCardGenerator"> */}
-              <button
-                className="explore"
-                onClick={() => {
-                  navigate("/ProjectGallery/Project/TeamCardGenerator");
-                }}
-              >
-                Explore
-              </button>
-              {/* </NavLink> */}
+              <NavLink to="/ProjectGallery/Project/TeamCardGenerator">
+                <button className="explore">Explore</button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -100,7 +92,3 @@ const ProjectGallery = () => {
 };
 
 export default ProjectGallery;
-
-{
-  /* <div class="work__container">grid<!-- Project 1 --></div><h3 class="work__project-title">Wax Motif</h3><div class="work__img-wrapper work__image1"><img class="lazy loaded" src="/waxmoney.png" data-src="/waxmoney.png" alt="Wax Motif website">::after</div><div class="work__project work__content1">…</div> */
-}

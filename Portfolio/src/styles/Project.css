@@ -1,0 +1,27 @@
+.singleProjectContainer {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.singleProjectContainer h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.singleProjectContainer button {
+  text-transform: capitalize;
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.singleProjectContainer button:hover {
+  background-color: #45a049;
+}
