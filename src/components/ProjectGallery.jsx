@@ -4,6 +4,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import Solarapp from "../assets/Solarapp.png";
 import Teamprofile from "../assets/Teamprofile.png";
 import Weatherapp from "../assets/Weatherapp.png";
+import cryptopulse from "../assets/cryptopulseapp.png";
 
 const ProjectGallery = () => {
   return (
@@ -12,22 +13,19 @@ const ProjectGallery = () => {
         {/* <!-- Project 1 --> */}
         <div className="work__project">
           <img
-            src={Teamprofile}
+            src={cryptopulse}
             alt="Wax Motif website"
             className="work__img"
           />
 
           <div className="work__overlay">
             <div className="work__text">
-              <h3 className="work__project-title">Team Card Generator</h3>
+              <h3 className="work__project-title">Crypto Pulse</h3>
               <p className="work__project-description">
-                Embark on a journey through the intricacies of corporate team
-                management with my Team Generator App. Leveraging the power of
-                Node.js, this server-side marvel employs the art of
-                object-oriented programming and Inquirer to seamlessly create
-                visually appealing cards for every member of your professional
-                ensemble. Witness the fusion of technology and teamwork in
-                action.
+                Discover real-time cryptocurrency prices with our app. Track top
+                movers, explore the top 20 coins by market cap, and dive into
+                detailed coin info and charts. Stay informed and make smart
+                decisions in the dynamic world of digital currencies.
               </p>
               <br />
               <NavLink to="/ProjectGallery/Project/TeamCardGenerator">
@@ -68,12 +66,8 @@ const ProjectGallery = () => {
           <div className="work__overlay">
             <div className="work__text">
               <h3 className="work__project-title">Weather App</h3>
-              <p className="work__project-description">
-                Introducing the Weather App – a dynamic forecast powerhouse that
-                transforms the mundane task of checking the weather into an
-                immersive experience. Through seamless integration of APIs and
-                JavaScript magic, this app not only forecasts the weather for
-                any city but does so with flair. Step into a world where weather
+              <p className="work__project-description thirdProjectDesc">
+                Introducing the Weather App – Step into a world where weather
                 updates are not just information but an interactive journey into
                 the atmospheric dynamics, turning routine checks into delightful
                 experiences.

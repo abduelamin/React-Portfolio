@@ -1,10 +1,10 @@
 {
   "TeamCardGenerator": {
-    "title": "Team Card Generator",
-    "deployedLink": "https://abduelamin.github.io/Team-Profile-Generator/",
-    "githubLink": "https://github.com/abduelamin/Team-Profile-Generator",
-    "image": "teamcardgenerator.png",
-    "description": "Embark on a journey through the intricacies of corporate team management with my Team Generator App. Leveraging the power of Node.js, this server-side marvel employs the art of object-oriented programming and Inquirer to seamlessly create visually appealing cards for every member of your professional ensemble. Witness the fusion of technology and teamwork inaction."
+    "title": "Crypto Pulse",
+    "deployedLink": "https://cryptopulseapp.netlify.app/",
+    "githubLink": "https://github.com/abduelamin/CryptoPulse",
+    "image": "cryptopulseapp.png",
+    "description": "Discover real-time cryptocurrency prices with our app. Track top movers, explore the top 20 coins by market cap, and dive into detailed coin info and charts. Stay informed and make smart decisions in the dynamic world of digital currencies."
   },
   "SunnySolar": {
     "title": "Sunny Solar",
