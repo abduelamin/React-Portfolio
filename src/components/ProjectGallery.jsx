@@ -5,12 +5,12 @@ import Solarapp from "../assets/Solarapp.png";
 import Teamprofile from "../assets/Teamprofile.png";
 import Weatherapp from "../assets/Weatherapp.png";
 import cryptopulse from "../assets/cryptopulseapp.png";
+import aibot from "../assets/aibot.png";
 
 const ProjectGallery = () => {
   return (
     <>
       <div className="work__container">
-        {/* <!-- Project 1 --> */}
         <div className="work__project">
           <img
             src={cryptopulse}
@@ -28,7 +28,7 @@ const ProjectGallery = () => {
                 decisions in the dynamic world of digital currencies.
               </p>
               <br />
-              <NavLink to="/ProjectGallery/Project/TeamCardGenerator">
+              <NavLink to="/ProjectGallery/Project/CryptoPulse">
                 <button className="explore">Explore</button>
               </NavLink>
             </div>
@@ -38,21 +38,19 @@ const ProjectGallery = () => {
         {/* <!-- Project 2 --> */}
 
         <div className="work__project">
-          <img src={Solarapp} alt="Project 2" className="work__img" />{" "}
+          <img src={aibot} alt="Project 2" className="work__img" />{" "}
           <div className="work__overlay">
             <div className="work__text">
-              <h3 className="work__project-title">Sunny Solar</h3>
+              <h3 className="work__project-title">Study Buddy</h3>
               <p className="work__project-description">
-                Unveiling the Solar App – an end-to-end masterpiece meticulously
-                crafted to empower homeowners in their transition to renewable
-                energy. This app goes beyond aesthetics. It's a beacon of
-                knowledge for homeowners, unraveling the mysteries of solar
-                potential, making informed decisions about harnessing clean
-                energy. Not just an app, but a solution to a real-world problem
-                in the era of renewable energy transition.
+                A revolutionary AI-powered chatbot tailored exclusively to cater
+                to your web development queries and curiosities. Crafted
+                meticulously from the ground up, StudyBuddy is more than just a
+                digital assistant; it's your personal guide through the vast
+                realm of web development knowledge.
               </p>
               <br />
-              <NavLink to="/ProjectGallery/Project/SunnySolar">
+              <NavLink to="/ProjectGallery/Project/StudyBuddy">
                 <button className="explore">Explore</button>
               </NavLink>
             </div>

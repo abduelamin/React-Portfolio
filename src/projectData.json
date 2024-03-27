@@ -1,17 +1,17 @@
 {
-  "TeamCardGenerator": {
+  "CryptoPulse": {
     "title": "Crypto Pulse",
     "deployedLink": "https://cryptopulseapp.netlify.app/",
     "githubLink": "https://github.com/abduelamin/CryptoPulse",
     "image": "cryptopulseapp.png",
     "description": "Discover real-time cryptocurrency prices with our app. Track top movers, explore the top 20 coins by market cap, and dive into detailed coin info and charts. Stay informed and make smart decisions in the dynamic world of digital currencies."
   },
-  "SunnySolar": {
-    "title": "Sunny Solar",
-    "deployedLink": "https://johndck.github.io/SunnySolarPotential/",
-    "githubLink": "https://github.com/johndck/SunnySolarPotential",
-    "image": "sunnysolar.png",
-    "description": "Unveiling the Solar App – an end-to-end masterpiece meticulously crafted to empower homeowners in their transition to renewable energy. This app goes beyond aesthetics. It's a beacon of knowledge for homeowners, unraveling the mysteries of solar potential, making informed decisions about harnessing clean energy. Not just an app, but a solution to a real-world problemin the era of renewable energy transition."
+  "StudyBuddy": {
+    "title": "Study Buddy",
+    "deployedLink": "https://studybuddy-ai.netlify.app/",
+    "githubLink": "https://github.com/abduelamin/Study-Buddy",
+    "image": "aibot.png",
+    "description": " Introducing StudyBuddy– a revolutionary AI-powered chatbot tailored exclusively to cater to your web development queries and curiosities. Crafted meticulously from the ground up, StudyBuddy is more than just a digital assistant; it's your personal guide through the vast realm of web development knowledge."
   },
   "Weatherapp": {
     "title": "Weather App",
