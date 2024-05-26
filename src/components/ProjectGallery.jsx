@@ -6,6 +6,7 @@ import Teamprofile from "../assets/Teamprofile.png";
 import Weatherapp from "../assets/Weatherapp.png";
 import cryptopulse from "../assets/cryptopulseapp.png";
 import aibot from "../assets/aibot.png";
+import cartSwipe from "../assets/cartswpe-Screenshot.png";
 
 const ProjectGallery = () => {
   return (
@@ -60,18 +61,18 @@ const ProjectGallery = () => {
         {/* <!-- Project 3 --> */}
 
         <div className="work__project">
-          <img src={Weatherapp} alt="Project 3" className="work__img" />
+          <img src={cartSwipe} alt="Project 3" className="work__img" />
           <div className="work__overlay">
             <div className="work__text">
-              <h3 className="work__project-title">Weather App</h3>
+              <h3 className="work__project-title">Cart Swipe</h3>
               <p className="work__project-description thirdProjectDesc">
-                Introducing the Weather App – Step into a world where weather
-                updates are not just information but an interactive journey into
-                the atmospheric dynamics, turning routine checks into delightful
-                experiences.
+                A fullstack e-commerce marvel, seamlessly blending React.js,
+                Node.js, Express.JS and MongoDB to elevate online shopping to an
+                immersive experience, it's where frontend finesse meets backend
+                brilliance.
               </p>
               <br />
-              <NavLink to="/ProjectGallery/Project/Weatherapp">
+              <NavLink to="/ProjectGallery/Project/CartSwipe">
                 <button className="explore">Explore</button>
               </NavLink>
             </div>

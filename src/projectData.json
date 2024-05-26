@@ -13,11 +13,11 @@
     "image": "aibot.png",
     "description": " Introducing StudyBuddy– a revolutionary AI-powered chatbot tailored exclusively to cater to your web development queries and curiosities. Crafted meticulously from the ground up, StudyBuddy is more than just a digital assistant; it's your personal guide through the vast realm of web development knowledge."
   },
-  "Weatherapp": {
-    "title": "Weather App",
-    "deployedLink": "https://abduelamin.github.io/Weather-app/",
-    "githubLink": "https://github.com/abduelamin/Weather-app",
-    "image": "weatherapp.png",
-    "description": "Introducing the Weather App – a dynamic forecast powerhouse that transforms the mundane task of checking the weather into an immersive experience. Through seamless integration of APIs and JavaScript magic, this app not only forecasts the weather for any city but does so with flair. Step into a world where weather updates are not just information but an interactive journey into the atmospheric dynamics, turning routine checks into delightful experiences."
+  "CartSwipe": {
+    "title": "Cart Swipe",
+    "deployedLink": "https://cartswipe.netlify.app/",
+    "githubLink": "https://github.com/abduelamin/CartSwipe",
+    "image": "cartswpe-Screenshot.png",
+    "description": "Introducing CartSwipe – an immersive e-commerce platform that elevates online shopping to an engaging experience. Seamlessly integrating React.js, React Hook Form, and JWT authentication, CartSwipe ensures smooth user interactions while showcasing the dynamic synergy of frontend and backend technologies. Welcome to a world where shopping online isn't just a transaction but an interactive journey into the world of modern retail."
   }
 }
