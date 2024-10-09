@@ -46,15 +46,19 @@ const Home = () => {
   return (
     <>
       <section className="heroSection" style={{ opacity: 0 }}>
-        <h1>FRONT-END WEB DEVELOPER</h1>
+        <h1>Full-STACK DEVELOPER</h1>
         <div className="introText">
           <p>
-            A passionate Junior <strong>FrontendWeb Developer</strong> ,
-            dedicated to translating imaginative concepts into interactive
-            digital realities. As a <strong>UI/UX enthusiast</strong>, I
-            specialise in crafting pixel-perfect{" "}
-            <strong>Websites/Applications</strong> to truly elevate the user
-            experience in the ever-evolving digital space.
+            A passionate <strong>Full-Stack Developer</strong> committed to
+            transforming visionary concepts into impactful digital experiences.
+            My expertise spans both front-end and back-end development, allowing
+            me to design and implement web applications that not only enhance
+            user interactions but also drive functionality. With a strong
+            emphasis on <strong>UI/UX principles</strong>, I strive to create
+            solutions that are not just aesthetically pleasing but also
+            user-centric, exceeding expectations in the fast-paced digital
+            landscape. I embrace challenges as opportunities to grow, constantly
+            seeking to innovate and expand my technical repertoire.
           </p>
         </div>
       </section>
@@ -75,29 +79,27 @@ const Home = () => {
       <section className="aboutMe" style={{ opacity: 0 }}>
         <div className="textContainer">
           <p>
-            🚀 Greetings! I'm <strong>Abdullah Elamin</strong>, a dynamic and
-            versatile Frontend Web Developer, seamlessly blending precision with
-            finesse in crafting digital wonders. With a solid foundation forged
-            in the rigorous landscape of pharmaceuticals, my unwavering
-            commitment to quality standards sets a resounding benchmark for
-            perfection. But my journey doesn't stop there; fueled by an
-            insatiable passion for continuous learning, every line of code
-            becomes a canvas for innovation and achieving greatness.
+            🚀 Hello! I'm Abdullah Elamin, a dynamic Full-Stack Developer with a
+            passion for crafting immersive digital solutions. My journey has
+            equipped me with a robust skill set, including proficiency in HTML,
+            CSS, JavaScript, React, Node.js, and PostgreSQL. I excel at creating
+            intuitive user interfaces and mastering API development and database
+            management. With a commitment to continuous learning, I view each
+            project as a chance to push my boundaries.
             <br />
             <br />
-            💡 As a skilled architect of the digital realm, my technical
-            expertise spans HTML, CSS, JavaScript, and React, allowing me to
-            breathe life into captivating and interactive user experiences. But
-            what sets me apart is more than just code – it's a mindset. I thrive
-            on challenges and embrace every project as an opportunity to push
-            boundaries and redefine standards.
+            💡 My focus on UI/UX excellence inspires me to develop intuitive and
+            engaging solutions that elevate user satisfaction. I embrace each
+            challenge as a chance to learn and grow, exploring new technologies
+            and methodologies that allow me to create innovative digital
+            experiences. This mindset fuels my drive to deliver solutions that
+            not only fulfill requirements but also create a lasting impact on
+            users.
             <br />
             <br />
-            🌐 Explore my portfolio, and you'll discover a fusion of innovation,
-            collaborative leadership, and a relentless pursuit of excellence.
-            Join me on this exhilarating journey where expertise meets
-            innovation, and together, we'll create digital experiences that
-            transcend expectations.
+            🌐 Explore my portfolio, where creativity meets technical expertise.
+            Let’s collaborate to build exceptional digital solutions that drive
+            success!
           </p>
         </div>
         <div className="profileImageContainer">

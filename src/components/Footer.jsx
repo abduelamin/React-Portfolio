@@ -24,11 +24,11 @@ const Footer = () => {
       </a>
 
       <a
-        href="https://drive.google.com/file/d/141shKsbJ_JTtCPyo6Yow0OLzmZTcMsp2/view?usp=sharing"
+        href="https://drive.google.com/file/d/10uKUXzdokK3t2szPF-MldSXK3UWIZxIB/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button>Download Resume</button>
+        <button>Resume</button>
       </a>
     </footer>
   );

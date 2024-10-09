@@ -19,5 +19,13 @@
     "githubLink": "https://github.com/abduelamin/CartSwipe",
     "image": "cartswpe-Screenshot.png",
     "description": "Introducing CartSwipe – an immersive e-commerce platform that elevates online shopping to an engaging experience. Seamlessly integrating React.js, React Hook Form, and JWT authentication, CartSwipe ensures smooth user interactions while showcasing the dynamic synergy of frontend and backend technologies. Welcome to a world where shopping online isn't just a transaction but an interactive journey into the world of modern retail."
+  },
+
+  "DreamNestTravel": {
+    "title": "Dream Nest Travel",
+    "deployedLink": "https://dream-travel-five.vercel.app/",
+    "githubLink": "https://github.com/abduelamin/DreamTravel",
+    "image": "dreamnest.png",
+    "description": "Dream Nest Travel is a full-stack rental platform built with React, Node.js, Express, PostgreSQL, and Tailwind CSS. Users can create profiles, list properties, make bookings, and manage their wishlist. AWS services are used for image uploads and storage, providing a seamless experience for hosts and travelers alike"
   }
 }
