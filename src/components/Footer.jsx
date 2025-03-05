@@ -24,7 +24,7 @@ const Footer = () => {
       </a>
 
       <a
-        href="https://drive.google.com/file/d/10uKUXzdokK3t2szPF-MldSXK3UWIZxIB/view?usp=sharing"
+        href="https://docs.google.com/document/d/11KuIHWip00_fgEBlTLb5ZCvVpL-Qs5Gf1kOxGOtxeGU/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >

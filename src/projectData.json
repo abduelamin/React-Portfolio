@@ -27,5 +27,12 @@
     "githubLink": "https://github.com/abduelamin/DreamTravel",
     "image": "dreamnest.png",
     "description": "Dream Nest Travel is a full-stack rental platform built with React, Node.js, Express, PostgreSQL, and Tailwind CSS. Users can create profiles, list properties, make bookings, and manage their wishlist. AWS services are used for image uploads and storage, providing a seamless experience for hosts and travelers alike"
+  },
+  "Inv-AI": {
+    "title": "Inv-AI",
+    "deployedLink": "https://inv-ai.vercel.app/",
+    "githubLink": "https://github.com/abduelamin/InvAI",
+    "image": "invAI.png",
+    "description": "Inv-AI is a pharma inventory management app powered by AI. It helps companies track inventory and uses predictive analytics to forecast stock expiration based on recent usage. The platform also generates weekly reports that provide insights into inventory additions, removals, forecasts, and future needs. Built as a full-stack app with Next.js, Tailwind CSS, and OpenAI, Inv-AI offers a modern and efficient solution for inventory tracking and management."
   }
 }
